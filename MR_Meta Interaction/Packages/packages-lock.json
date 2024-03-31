@@ -18,14 +18,13 @@
       "url": "https://packages.unity.com"
     },
     "com.meta.xr.sdk.interaction.ovr": {
-      "version": "63.0.0",
+      "version": "file:com.meta.xr.sdk.interaction.ovr",
       "depth": 0,
-      "source": "registry",
+      "source": "embedded",
       "dependencies": {
-        "com.meta.xr.sdk.core": "63.0.0",
-        "com.meta.xr.sdk.interaction": "63.0.0"
-      },
-      "url": "https://packages.unity.com"
+        "com.meta.xr.sdk.interaction": "63.0.0",
+        "com.meta.xr.sdk.core": "63.0.0"
+      }
     },
     "com.unity.burst": {
       "version": "1.8.7",
